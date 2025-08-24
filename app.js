@@ -7,6 +7,7 @@ const popUp = document.querySelector(".pop-up");
 popUp.classList.add("hidden");
 let taskNo=1;
 add.addEventListener("click", function(e){
+    
     const newTask = document.createElement("li");
     const checkBox= document.createElement("input");
      checkBox.type="checkbox";
@@ -33,6 +34,7 @@ list.addEventListener("click", function(e){
     //   console.log(sibling);
      if(e.target.checked){
         if(sibling.value===""){
+            navigator.vibrate(100);
          e.target.checked=false;
          popUp.classList.remove("hidden");
         //  alert("Please type something");
