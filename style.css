@@ -116,6 +116,7 @@ li{margin-top: 1rem;
    
     align-items: center;
     animation: scaleUp 0.3s;
+    z-index: 2;
 }
 .hidden{
     display: none;
@@ -132,6 +133,14 @@ li{margin-top: 1rem;
 }
 #okay:active{
     transform: scaleX(0.9);
+}
+.overlay{
+  min-height: 100vh;
+  min-width: 100vh;
+  /* background-color: #70e000; */
+  z-index: 1;
+  position: absolute;
+
 }
 
 @keyframes scaleUp {

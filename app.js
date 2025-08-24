@@ -2,7 +2,8 @@
 const add = document.getElementById("add")
 const list = document.querySelector("ul");
 const popUp = document.querySelector(".pop-up");
-
+const overlay = document.querySelector(".overlay");
+ overlay.style.display="none";
 // popUp.style.display="none";
 popUp.classList.add("hidden");
 let taskNo=1;
@@ -34,6 +35,7 @@ list.addEventListener("click", function(e){
     //   console.log(sibling);
      if(e.target.checked){
         if(sibling.value===""){
+             overlay.style.display="block";
             soundEffect.play();
             navigator.vibrate(100);
          e.target.checked=false;
@@ -42,6 +44,7 @@ list.addEventListener("click", function(e){
         const okay = document.querySelector("#okay");
         okay.addEventListener("click",(e)=>{
           popUp.classList.add("hidden");
+           overlay.style.display="none";
         })
          return;
         }else{
