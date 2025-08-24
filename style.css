@@ -205,7 +205,9 @@ li{margin-top: 1rem;
  
 @media (max-width: 768px) {
   .container {
-    max-width: 70%;
+    margin-top: 5vh;
+    max-width: 80%;
+    min-height: 80vh;
     padding: 1rem;
   }
 
