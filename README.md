@@ -15,7 +15,4 @@ This project allows users to add, remove, and manage their daily tasks efficient
 - **CSS** – Styling and animations  
 - **JavaScript** – Functionality and logic  
 
-## 📦 Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/pankaj-2702/To-Do-List.git
+
