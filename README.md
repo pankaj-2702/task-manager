@@ -7,7 +7,8 @@ This project allows users to add, remove, and manage their daily tasks efficient
 - Add new tasks  
 - Remove completed tasks  
 - Mark tasks as done using checkboxes  
-- Popup animation for task interactions  
+- Popup animation for task interactions
+- responsive layout for differnt devices
 
 ## 🛠️ Tech Stack
 - **HTML** – Structure of the app  
