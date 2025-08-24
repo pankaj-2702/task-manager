@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"  href="favicon.png" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <h2>Plan Your Day</h2>
+        <div class="top-bar">
+            <div class="btn-container">
+                <button id="add">ADD</button>
+                <button id="clear">CLEAR</button>
+            </div>
+              </div>
+            <div class="main">
+                <ul>
+                    <li>
+                        <input class="check-box" id="0" type="checkbox">
+                        <input class="text" id="0" type="text" placeholder="Type something">
+                    </li>
+                </ul>
+            </div>
+      
+    </div>
+    <div class="pop-up hidden scaleOut">
+        <h1>Please Type<br> something...</h1>
+        <button id="okay">OK</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
