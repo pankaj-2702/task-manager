@@ -92,6 +92,7 @@ h2{
    /* display: none; */
    opacity: 0;
    /* background-color: #70e000; */
+    border:none;
    
 }
 li:hover .cross-btn{
