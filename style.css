@@ -48,8 +48,14 @@ button{
 #add{
     background-color: #70e000;
 }
+#add:active{
+  transform: scale(0.9);
+}
 #clear{
     background-color: #f3de2c;
+}
+#clear:active{
+  transform: scale(0.9);
 }
 .main {
     margin-top: 1rem;
