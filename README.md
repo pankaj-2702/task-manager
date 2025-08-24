@@ -1,4 +1,4 @@
-# [To-Do-List](https://github.com/pankaj-2702/To-Do-List)
+# [To-Do-List](https://github.com/pankaj-2702/To-Do-List/)
 
 A simple To-Do List application built using **HTML, CSS, and JavaScript**.  
 This project allows users to add, remove, and manage their daily tasks efficiently.
