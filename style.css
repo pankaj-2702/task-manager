@@ -17,6 +17,7 @@ body{
     height: 70vh;
     width: 50vh;
 }
+
 h2{
     text-align: center;
     margin-top: 10px;
@@ -150,3 +151,19 @@ li{margin-top: 1rem;
   }
 }
  
+@media (max-width: 768px) {
+  .container {
+    max-width: 70%;
+    padding: 1rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .btn-container {
+    width: 100%;
+    margin-right: 0;
+    justify-content: space-around;
+  }
+}
