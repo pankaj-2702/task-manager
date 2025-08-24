@@ -24,7 +24,7 @@ add.addEventListener("click", function(e){
     newTask.append(item);
      taskNo++;
 })
-
+ const soundEffect = new Audio("bubble.mp3");
 list.addEventListener("click", function(e){
     if(e.target.type==="checkbox"){
       const id=e.target;
@@ -34,6 +34,7 @@ list.addEventListener("click", function(e){
     //   console.log(sibling);
      if(e.target.checked){
         if(sibling.value===""){
+            soundEffect.play();
             navigator.vibrate(100);
          e.target.checked=false;
          popUp.classList.remove("hidden");
